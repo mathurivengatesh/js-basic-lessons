@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="./currency.css" />
+    <title>currency-convertor</title>
+  </head>
+  <body>
+    <table>
+      <tbody>
+        <tr class="table">
+          <th>
+            <input type="number" id="amount" />
+          </th>
+          <th>
+            <select class="from-dropbtn">
+              select a currency
+            </select>
+          </th>
+        </tr>
+        <tr>
+          <td class="text">In</td>
+          <td>
+            <select class="to-dropbtn">
+              select a currency
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td class="text">Is</td>
+          <td><div id="btn-convert"></div></td>
+        </tr>
+      </tbody>
+    </table>
+    <script src="./currency.js" type="module"></script>
+  </body>
+</html>

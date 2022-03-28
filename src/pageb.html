@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        run the java script tags at the end before the closing "body" tag
+        else the dom returns a <b>null</b>object.because when the first script is loaded the paragraph
+    </div>
+    <script>
+        console.log('Before');
+        const p1 = document.querySelectorAll('p');
+        console.log(p1);
+    </script>
+
+    <p>hi,there,how are you-this the first paragraph</p>
+    <p>this is the second para</p>
+    <script>
+        
+    </script>
+</body>
+</html>
