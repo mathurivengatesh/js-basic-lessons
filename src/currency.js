@@ -1,5 +1,4 @@
-import { myFunction } from "./conversion.js"
-const currencies = {
+export const currencies = {
   USD: 'United States Dollar',
   AUD: 'Australian Dollar',
   BGN: 'Bulgarian Lev',
@@ -33,23 +32,7 @@ const currencies = {
   ZAR: 'South African Rand',
   EUR: 'Euro',
 };
-const from = document.querySelector('.from-dropbtn');
-const to = document.querySelector('.to-dropbtn');
-const input = document.querySelector('#currency');
 
-const country = generateOptions(currencies);
-from.innerHTML = country;
-to.innerHTML = country;
-
-function generateOptions(options) {
-  return Object.entries(options)
-    .map(
-      ([currencyCode, currencyName]) =>
-        `<option value="${currencyCode}">${currencyCode} - ${currencyName}</option>`
-    )
-    .join("");
-    myFunction();
-}
 
 
 
