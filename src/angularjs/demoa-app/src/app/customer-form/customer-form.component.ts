@@ -14,9 +14,9 @@ export class CustomerFormComponent implements OnInit {
 
   ngOnInit(): void {
     this.customerModel = {
-      firstName: 'steve',
-      lastName: 'jobs',
-      email: 'steve.jobs@gmamil.com'
+      firstName: '',
+      lastName: '',
+      email: ''
     }
   }
 saveCustomer(customerFormGroup:any){
